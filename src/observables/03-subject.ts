@@ -1,7 +1,7 @@
 import { Observable, Observer, Subject, Subscriber } from "rxjs";
 
-// Cuando la data es producida por el Observable en sí MediaStreamAudioSourceNode, es considerado
-// ColdObservable, pero cuando la data es producida fuera del observable es llamado Hot Observable
+// Cuando la data es producida por el Observable en sí, es considerado
+// Cold Observable, pero cuando la data es producida fuera del observable es llamado Hot Observable
 
 // Observer.
 const observer: Observer<any> = {
